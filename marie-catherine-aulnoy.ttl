@@ -1,0 +1,29 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix data: <http://cwrc.ca/cwrcdata/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix hint: <http://www.bigdata.com/queryHints#> .
+@prefix bd: <http://www.bigdata.com/rdf#> .
+@prefix bds: <http://www.bigdata.com/rdf/search#> .
+
+data:Aulnoy_Marie-Catherine_d cwrc:hasBirthPlace "Honfleur,France" ;
+	rdfs:label "Aulnoy, Marie-Catherine d'" ;
+	skos:altLabel "Marie-Catherine d'Aulnoy" ;
+	rdfs:label "Aulnoy, Marie-Catherine d'"^^xsd:string ;
+	cwrc:relatesByCulturalFormTo data:Louis_XIV_King_of_France , data:Zipes_Jack ;
+	cwrc:hasBirthDate "1651"^^xsd:gYear ;
+	cwrc:hasDeathDate "1705-01-14"^^xsd:date ;
+	cwrc:hasDeathPlace <http://sws.geonames.org/2988507/> ;
+	cwrc:hasGender cwrc:woman ;
+	cwrc:hasPaidOccupation cwrc:intelligenceWork ;
+	cwrc:inhabits <http://sws.geonames.org/2988507/> ;
+	cwrc:hasName data:aulnma_NameEnt_Barneville_Marie-Catherine_Lejumel_de , data:aulnma_NameEnt_Countess_Daulnoy , data:aulnma_NameEnt_La_Mothe , data:aulnma_NameEnt_Madame_DAulnoy , data:aulnma_NameEnt_Marie-Catherine_dAulnoy ;
+	cwrc:relatesByOccupationTo data:Behn_Aphra , data:McDowell_Paula ;
+	cwrc:travelsTo <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/2510769/> .
