@@ -1,0 +1,1067 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix data: <http://cwrc.ca/cwrcdata/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix hint: <http://www.bigdata.com/queryHints#> .
+@prefix bd: <http://www.bigdata.com/rdf#> .
+@prefix bds: <http://www.bigdata.com/rdf/search#> .
+
+data:Allingham_William cwrc:hasBirthPlace <http://sws.geonames.org/3301957/> ;
+	rdfs:label "Allingham, William" .
+
+data:Becker_Lydia cwrc:hasBirthPlace <http://sws.geonames.org/2643123/> ;
+	rdfs:label "Becker, Lydia" .
+
+data:Howe_Julia_Ward cwrc:hasBirthPlace <http://sws.geonames.org/5128581/> ;
+	rdfs:label "Howe, Julia Ward" .
+
+data:Yonge_Charlotte cwrc:hasBirthPlace <http://sws.geonames.org/2640853/> ;
+	rdfs:label "Yonge, Charlotte" .
+
+data:Blackwell_Antoinette_Brown cwrc:hasBirthPlace <http://sws.geonames.org/4470617/> ;
+	rdfs:label "Blackwell, Antoinette Brown" .
+
+data:Shore_Louisa_Catherine cwrc:hasBirthPlace <http://sws.geonames.org/7294328/> ;
+	rdfs:label "Shore, Louisa Catherine" .
+
+data:Tindal_Henrietta_Euphemia cwrc:hasBirthPlace <http://sws.geonames.org/2650836/> ;
+	rdfs:label "Tindal, Henrietta Euphemia" .
+
+data:Sewell_Elizabeth cwrc:hasBirthPlace <http://sws.geonames.org/2641598/> ;
+	rdfs:label "Sewell, Elizabeth" .
+
+data:Bodichon_Barbara_Leigh_Smith cwrc:hasBirthPlace <http://sws.geonames.org/2634671/> ;
+	rdfs:label "Bodichon, Barbara Leigh Smith" .
+
+data:Ingelow_Jean cwrc:hasBirthPlace <http://sws.geonames.org/2655138/> ;
+	rdfs:label "Ingelow, Jean" .
+
+data:Lewes_George_Henry cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Lewes, George Henry" .
+
+data:Linton_Eliza_Lynn cwrc:hasBirthPlace <http://sws.geonames.org/6693101/> ;
+	rdfs:label "Linton, Eliza Lynn" .
+
+data:Byron_Augusta_Ada cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Byron, Augusta Ada" .
+
+data:Marsh_Catherine cwrc:hasBirthPlace <http://sws.geonames.org/2652618/> ;
+	rdfs:label "Marsh, Catherine" .
+
+data:Butler_Josephine cwrc:hasBirthPlace <http://sws.geonames.org/11427403/> ;
+	rdfs:label "Butler, Josephine" .
+
+data:Cobbe_Frances_Power cwrc:hasBirthPlace <http://sws.geonames.org/2964574/> ;
+	rdfs:label "Cobbe, Frances Power" .
+
+data:Rossetti_Dante_Gabriel cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Rossetti, Dante Gabriel" .
+
+data:Skene_Felicia cwrc:hasBirthPlace <http://sws.geonames.org/3038354/> ;
+	rdfs:label "Skene, Felicia" .
+
+data:Marx_Karl cwrc:hasBirthPlace <http://sws.geonames.org/2821164/> ;
+	rdfs:label "Marx, Karl" .
+
+data:Oliphant_Margaret cwrc:hasBirthPlace "Wallyford,Midlothian,Scotland" ;
+	rdfs:label "Oliphant, Margaret" .
+
+data:Meredith_George cwrc:hasBirthPlace <http://sws.geonames.org/2639996/> ;
+	rdfs:label "Meredith, George" .
+
+data:Arnold_Matthew cwrc:hasBirthPlace <http://sws.geonames.org/2645016/> ;
+	rdfs:label "Arnold, Matthew" .
+
+data:Bagehot_Walter cwrc:hasBirthPlace <http://sws.geonames.org/2644914/> ;
+	rdfs:label "Bagehot, Walter" .
+
+data:Duff_Gordon_Lucie cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Duff Gordon, Lucie" .
+
+data:Hays_Matilda cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Hays, Matilda" .
+
+data:Meteyard_Eliza cwrc:hasBirthPlace <http://sws.geonames.org/2644210/> ;
+	rdfs:label "Meteyard, Eliza" .
+
+data:Leakey_Caroline cwrc:hasBirthPlace <http://sws.geonames.org/2649808/> ;
+	rdfs:label "Leakey, Caroline" .
+
+data:Alexander_Mrs cwrc:hasBirthPlace <http://sws.geonames.org/2964574/> ;
+	rdfs:label "Alexander, Mrs" .
+
+data:Greenwell_Dora cwrc:hasBirthPlace <http://sws.geonames.org/2644968/> ;
+	rdfs:label "Greenwell, Dora" .
+
+data:Patmore_Coventry cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Patmore, Coventry" .
+
+data:Ballantyne_R_M cwrc:hasBirthPlace <http://sws.geonames.org/2650225/> ;
+	rdfs:label "Ballantyne, R. M." .
+
+data:Chanter_Charlotte cwrc:hasBirthPlace "Barnack,Northamptonshire,England" ;
+	rdfs:label "Chanter, Charlotte" .
+
+data:Charles_Elizabeth cwrc:hasBirthPlace <http://sws.geonames.org/2636174/> ;
+	rdfs:label "Charles, Elizabeth" .
+
+data:Spencer_Herbert cwrc:hasBirthPlace <http://sws.geonames.org/2651347/> ;
+	rdfs:label "Spencer, Herbert" .
+
+data:Parkes_Bessie_Rayner cwrc:hasBirthPlace <http://sws.geonames.org/2655603/> ;
+	rdfs:label "Parkes, Bessie Rayner" .
+
+data:Banks_Isabella cwrc:hasBirthPlace <http://sws.geonames.org/2643123/> ;
+	rdfs:label "Banks, Isabella" .
+
+data:Ibsen_Henrik cwrc:hasBirthPlace <http://sws.geonames.org/3139075/> ;
+	rdfs:label "Ibsen, Henrik" .
+
+data:Collins_Wilkie cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Collins, Wilkie" .
+
+data:Browne_Frances cwrc:hasBirthPlace <http://sws.geonames.org/2961337/> ;
+	rdfs:label "Browne, Frances" .
+
+data:Duberly_Frances_Isabella cwrc:hasBirthPlace <http://sws.geonames.org/2639048/> ;
+	rdfs:label "Duberly, Frances Isabella" .
+
+data:Taylor_Mary cwrc:hasBirthPlace <http://sws.geonames.org/2648339/> ;
+	rdfs:label "Taylor, Mary" .
+
+data:Notley_Frances cwrc:hasBirthPlace "Landager,Cornwall,England" ;
+	rdfs:label "Notley, Frances" .
+
+data:Amiel_Henri-Frederic cwrc:hasBirthPlace <http://sws.geonames.org/2660646/> ;
+	rdfs:label "Amiel, Henri-Frédéric" .
+
+data:Smedley_Menella_Bute cwrc:hasBirthPlace <http://sws.geonames.org/3333215/> ;
+	rdfs:label "Smedley, Menella Bute" .
+
+data:Collins_Wilkie cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Eliot_George cwrc:inhabits <http://sws.geonames.org/2633731/> ;
+	rdfs:label "Eliot, George" ;
+	cwrc:inhabits <http://sws.geonames.org/2643743/> .
+
+data:Kemble_Adelaide cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Kemble, Adelaide" .
+
+data:Dostoevsky_Fyodor_Mikhailovich cwrc:hasBirthPlace "Moscow,Russian Federation" ;
+	rdfs:label "Dostoevsky, Fyodor Mikhailovich" .
+
+data:Aguilar_Grace cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Aguilar, Grace" .
+
+data:Baudelaire_Charles cwrc:hasBirthPlace <http://sws.geonames.org/2988507/> ;
+	rdfs:label "Baudelaire, Charles" .
+
+data:Bronte_Emily cwrc:hasBirthPlace <http://sws.geonames.org/2635969/> ;
+	rdfs:label "Brontë, Emily" .
+
+data:Bronte_Charlotte cwrc:hasBirthPlace <http://sws.geonames.org/2635969/> ;
+	rdfs:label "Brontë, Charlotte" .
+
+data:Melville_Herman cwrc:hasBirthPlace <http://sws.geonames.org/5128581/> ;
+	rdfs:label "Melville, Herman" .
+
+data:Reid_Marion cwrc:hasBirthPlace <http://sws.geonames.org/2648579/> ;
+	rdfs:label "Reid, Marion" .
+
+data:Hume_Mary_Catherine cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Hume, Mary Catherine" .
+
+data:Ogilvy_Eliza cwrc:hasBirthPlace <http://sws.geonames.org/2640358/> ;
+	rdfs:label "Ogilvy, Eliza" .
+
+data:Shore_Margaret_Emily cwrc:hasBirthPlace <http://sws.geonames.org/2654186/> ;
+	rdfs:label "Shore, Margaret Emily" .
+
+data:Worboise_Emma_Jane cwrc:hasBirthPlace <http://sws.geonames.org/2655603/> ;
+	rdfs:label "Worboise, Emma Jane" .
+
+data:Hardy_Mary_Anne_Duffus cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Hardy, Mary Anne Duffus" .
+
+data:Siddal_Elizabeth cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Siddal, Elizabeth" .
+
+data:Kavanagh_Julia cwrc:hasBirthPlace <http://sws.geonames.org/2961214/> ;
+	rdfs:label "Kavanagh, Julia" .
+
+data:Keary_Annie cwrc:hasBirthPlace <http://vocab.getty.edu/tgn/7029866> ;
+	rdfs:label "Keary, Annie" .
+
+data:Kemble_Adelaide cwrc:hasDeathPlace <http://sws.geonames.org/2634738/> .
+
+data:Tytler_Harriet cwrc:hasBirthPlace "Secrora,Uttar Pradesh,India" ;
+	rdfs:label "Tytler, Harriet" .
+
+data:Buckle_Henry_Thomas cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Buckle, Henry Thomas" .
+
+data:Rossetti_Dante_Gabriel cwrc:hasDeathPlace <http://sws.geonames.org/2655627/> .
+
+data:Banks_Isabella cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Bronte_Anne cwrc:hasBirthPlace <http://sws.geonames.org/2635969/> ;
+	rdfs:label "Brontë, Anne" .
+
+data:Lewes_George_Henry cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Linton_Eliza_Lynn cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Patmore_Coventry cwrc:hasDeathPlace <http://vocab.getty.edu/tgn/7026945> .
+
+data:Byron_Augusta_Ada cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Ingelow_Jean cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Dobell_Sydney_Thompson cwrc:hasBirthPlace <http://sws.geonames.org/7295920/> ;
+	rdfs:label "Dobell, Sydney Thompson" .
+
+data:Taylor_Mary cwrc:hasDeathPlace <http://sws.geonames.org/2648339/> .
+
+data:Burton_Richard_Francis cwrc:hasBirthPlace <http://sws.geonames.org/2635650/> ;
+	rdfs:label "Burton, Richard Francis" .
+
+data:Boucicault_Dion cwrc:hasBirthPlace <http://sws.geonames.org/2964574/> ;
+	rdfs:label "Boucicault, Dion" .
+
+data:Craik_Dinah_Mulock cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Craik, Dinah Mulock" .
+
+data:Dobell_Sydney_Thompson cwrc:hasDeathPlace <http://sws.geonames.org/2636616/> .
+
+data:Evans_Anne cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Evans, Anne" .
+
+data:Aguilar_Grace cwrc:hasDeathPlace <http://sws.geonames.org/2925533/> .
+
+data:Charles_Elizabeth cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Martin_Mary cwrc:hasDeathPlace <http://sws.geonames.org/5128581/> ;
+	rdfs:label "Martin, Mary" .
+
+data:Procter_Adelaide cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Procter, Adelaide" .
+
+data:Alexander_Mrs cwrc:inhabits <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2633561/> , <http://sws.geonames.org/2638360/> , <http://sws.geonames.org/2638864/> , <http://sws.geonames.org/2921044/> , <http://sws.geonames.org/3017382/> .
+
+data:Harper_Frances_E_W cwrc:hasDeathPlace <http://sws.geonames.org/4560349/> ;
+	rdfs:label "Harper, Frances E. W." .
+
+data:Smedley_Menella_Bute cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Blackmore_R_D cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Blackmore, R. D." .
+
+data:Bodichon_Barbara_Leigh_Smith cwrc:inhabits <http://sws.geonames.org/2507480/> .
+
+data:Burton_Richard_Francis cwrc:hasDeathPlace <http://sws.geonames.org/3165185/> .
+
+data:Martin_Mary cwrc:hasBirthPlace <http://sws.geonames.org/2964180/> .
+
+data:Wilde_Jane_Francesca_Lady cwrc:hasBirthPlace <http://sws.geonames.org/2964574/> ;
+	rdfs:label "Wilde, Jane Francesca,,, Lady" .
+
+data:Trollope_Anthony cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Trollope, Anthony" .
+
+data:Greenwell_Dora cwrc:hasDeathPlace <http://sws.geonames.org/2652838/> .
+
+data:Bagehot_Walter cwrc:hasDeathPlace <http://sws.geonames.org/2644914/> .
+
+data:Clough_Arthur_Hugh cwrc:hasBirthPlace <http://sws.geonames.org/2644210/> ;
+	rdfs:label "Clough, Arthur Hugh" .
+
+data:Waring_Anna_Letitia cwrc:hasBirthPlace <http://sws.geonames.org/2641843/> ;
+	rdfs:label "Waring, Anna Letitia" .
+
+data:Hubback_Catherine cwrc:hasBirthPlace <http://sws.geonames.org/2653293/> ;
+	rdfs:label "Hubback, Catherine" .
+
+data:Clough_Arthur_Hugh cwrc:hasDeathPlace <http://sws.geonames.org/3176959/> .
+
+data:Evans_Anne cwrc:inhabits <http://sws.geonames.org/2654269/> .
+
+data:Hays_Matilda cwrc:hasDeathPlace <http://sws.geonames.org/2644210/> .
+
+data:Nightingale_Florence cwrc:hasBirthPlace <http://sws.geonames.org/3176959/> ;
+	rdfs:label "Nightingale, Florence" .
+
+data:Keary_Annie cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Bronte_Emily cwrc:hasDeathPlace <http://sws.geonames.org/2647278/> .
+
+data:Cary_Mary_Ann_Shadd cwrc:hasBurialPlace <http://sws.geonames.org/4140963/> ;
+	rdfs:label "Cary, Mary Ann Shadd" .
+
+data:Kavanagh_Julia cwrc:hasBurialPlace <http://sws.geonames.org/2990440/> .
+
+data:Trollope_Anthony cwrc:hasBurialPlace <http://sws.geonames.org/2643743/> .
+
+data:Marshall_Emma cwrc:hasBirthPlace <http://sws.geonames.org/2651930/> ;
+	rdfs:label "Marshall, Emma" .
+
+data:Procter_Adelaide cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> .
+
+data:Butler_Josephine cwrc:hasBurialPlace <http://sws.geonames.org/7291797/> .
+
+data:Siddal_Elizabeth cwrc:hasBurialPlace <http://sws.geonames.org/2643743/> .
+
+data:Baudelaire_Charles cwrc:inhabits <http://sws.geonames.org/2800866/> , <http://sws.geonames.org/2988507/> , <http://sws.geonames.org/2996944/> .
+
+data:Blagden_Isa cwrc:inhabits <http://sws.geonames.org/3176959/> ;
+	rdfs:label "Blagden, Isa" .
+
+data:Lewes_George_Henry cwrc:hasBurialPlace <http://sws.geonames.org/2643743/> .
+
+data:Linton_Eliza_Lynn cwrc:hasBurialPlace <http://sws.geonames.org/6693101/> .
+
+data:Ruskin_John cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Ruskin, John" .
+
+data:Siddal_Elizabeth cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> .
+
+data:Ingelow_Jean cwrc:inhabits <http://sws.geonames.org/2643743/> .
+
+data:Bronte_Anne cwrc:hasDeathPlace <http://sws.geonames.org/2638419/> .
+
+data:Blackwell_Antoinette_Brown cwrc:inhabits <http://sws.geonames.org/4201648/> , <http://sws.geonames.org/4470617/> , <http://sws.geonames.org/5116640/> , <http://sws.geonames.org/5097598/> .
+
+data:Amiel_Henri-Frederic cwrc:hasDeathPlace <http://sws.geonames.org/2660646/> .
+
+data:Tytler_Harriet cwrc:hasDeathPlace <http://sws.geonames.org/1256237/> .
+
+data:Hubback_Catherine cwrc:hasDeathPlace <http://sws.geonames.org/6254928/> .
+
+data:Leakey_Caroline cwrc:hasDeathPlace <http://sws.geonames.org/2649808/> .
+
+data:Sewell_Anna cwrc:hasBirthPlace <http://sws.geonames.org/2647984/> ;
+	rdfs:label "Sewell, Anna" .
+
+data:Banks_Isabella cwrc:inhabits <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2655603/> , <http://sws.geonames.org/2964574/> , <http://sws.geonames.org/2643123/> , <http://sws.geonames.org/2647428/> .
+
+data:Baudelaire_Charles cwrc:hasDeathPlace <http://sws.geonames.org/2988507/> .
+
+data:Browne_Frances cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Meredith_George cwrc:hasDeathPlace <http://sws.geonames.org/2651095/> .
+
+data:Bronte_Charlotte cwrc:inhabits <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2650225/> , <http://sws.geonames.org/8581589/> , <http://sws.geonames.org/2647278/> .
+
+data:Pfeiffer_Emily_Jane cwrc:inhabits <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Pfeiffer, Emily Jane" .
+
+data:Kortright_Fanny_Aikin cwrc:inhabits <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Kortright, Fanny Aikin" .
+
+data:Reid_Marion cwrc:inhabits <http://sws.geonames.org/2650225/> .
+
+data:Procter_Adelaide cwrc:inhabits <http://sws.geonames.org/2643743/> .
+
+data:Butler_Josephine cwrc:inhabits <http://sws.geonames.org/2640729/> .
+
+data:Ingelow_Jean cwrc:hasBurialPlace <http://sws.geonames.org/2643743/> .
+
+data:Greenwell_Dora cwrc:hasBurialPlace <http://sws.geonames.org/2654675/> .
+
+data:Ballantyne_R_M cwrc:inhabits <http://sws.geonames.org/6251999/> .
+
+data:Byron_Augusta_Ada cwrc:hasBurialPlace <http://sws.geonames.org/2646460/> .
+
+data:Eliot_George cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Flaubert_Gustave cwrc:hasBirthPlace <http://sws.geonames.org/2982652/> ;
+	rdfs:label "Flaubert, Gustave" .
+
+data:Kavanagh_Julia cwrc:inhabits <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2988507/> , <http://sws.geonames.org/9610282/> , <http://sws.geonames.org/2990440/> .
+
+data:Keary_Annie cwrc:inhabits <http://sws.geonames.org/2643743/> .
+
+data:Howe_Julia_Ward cwrc:hasBurialPlace <http://sws.geonames.org/4931972/> .
+
+data:Craik_Dinah_Mulock cwrc:hasBurialPlace <http://sws.geonames.org/2643743/> .
+
+data:Charles_Elizabeth cwrc:hasBurialPlace <http://sws.geonames.org/2643743/> .
+
+data:Banks_Isabella cwrc:hasBurialPlace <http://sws.geonames.org/2643743/> .
+
+data:Duberly_Frances_Isabella cwrc:hasDeathPlace <http://sws.geonames.org/2653261/> .
+
+data:Cobbe_Frances_Power cwrc:inhabits <http://sws.geonames.org/2964752/> , <http://sws.geonames.org/2654675/> , <http://sws.geonames.org/2634895/> , <http://sws.geonames.org/2963597/> .
+
+data:Procter_Adelaide cwrc:hasBurialPlace <http://sws.geonames.org/2643743/> .
+
+data:Marsh_Catherine cwrc:hasBurialPlace <http://sws.geonames.org/2643743/> .
+
+data:Cobbe_Frances_Power cwrc:hasBurialPlace <http://sws.geonames.org/2642726/> .
+
+data:Eliot_George cwrc:hasBurialPlace <http://sws.geonames.org/2643743/> .
+
+data:Clough_Arthur_Hugh cwrc:inhabits <http://sws.geonames.org/4597040/> .
+
+data:Cobbe_Frances_Power cwrc:inhabits <http://sws.geonames.org/2642786/> , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2656173/> , <http://sws.geonames.org/2964574/> , <http://sws.geonames.org/2964765/> .
+
+data:Hardy_Mary_Anne_Duffus cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Notley_Frances cwrc:hasDeathPlace <http://sws.geonames.org/2635610/> .
+
+data:Reid_Marion cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Linton_Eliza_Lynn cwrc:inhabits "Keswick,Cumbria,England" , <http://sws.geonames.org/2988507/> , <http://sws.geonames.org/2643743/> .
+
+data:Nightingale_Florence cwrc:hasBurialPlace <http://sws.geonames.org/2650316/> .
+
+data:Craik_Dinah_Mulock cwrc:hasBirthPlace <http://sws.geonames.org/2636841/> .
+
+data:Victoria_Queen cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Victoria, Queen" .
+
+data:Harper_Frances_E_W cwrc:hasBurialPlace <http://sws.geonames.org/4560349/> .
+
+data:Pfeiffer_Emily_Jane cwrc:hasBirthPlace <http://sws.geonames.org/2642303/> .
+
+data:Leakey_Caroline cwrc:inhabits <http://sws.geonames.org/7839672/> , "Port Arthur,Tasmania,Australia" , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2649808/> .
+
+data:Godley_Charlotte cwrc:hasBirthPlace <http://sws.geonames.org/7299980/> ;
+	rdfs:label "Godley, Charlotte" .
+
+data:Sewell_Elizabeth cwrc:inhabits <http://sws.geonames.org/11609015/> , <http://sws.geonames.org/2634150/> , <http://sws.geonames.org/2641598/> .
+
+data:Wilde_Jane_Francesca_Lady cwrc:hasBurialPlace <http://sws.geonames.org/2643743/> .
+
+data:Kortright_Fanny_Aikin cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> .
+
+data:Meteyard_Eliza cwrc:hasBurialPlace <http://sws.geonames.org/2643743/> .
+
+data:Duff_Gordon_Lucie cwrc:hasBurialPlace <http://sws.geonames.org/360630/> .
+
+data:Evans_Anne cwrc:hasBirthPlace <http://sws.geonames.org/7292856/> .
+
+data:Charles_Elizabeth cwrc:inhabits <http://sws.geonames.org/2643743/> .
+
+data:Oliphant_Margaret cwrc:hasBurialPlace <http://sws.geonames.org/2649873/> .
+
+data:Tucker_Charlotte_Maria cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Tucker, Charlotte Maria" .
+
+data:Tytler_Sarah cwrc:hasBirthPlace <http://sws.geonames.org/2651698/> ;
+	rdfs:label "Tytler, Sarah" .
+
+data:Eliot_George cwrc:hasBirthPlace <http://sws.geonames.org/10103874/> .
+
+data:Froude_James_Anthony cwrc:hasBirthPlace <http://sws.geonames.org/2651514/> ;
+	rdfs:label "Froude, James Anthony" .
+
+data:Becker_Lydia cwrc:hasBurialPlace <http://sws.geonames.org/2660646/> .
+
+data:Tucker_Charlotte_Maria cwrc:hasBurialPlace <http://sws.geonames.org/1276720/> .
+
+data:Shore_Margaret_Emily cwrc:hasBurialPlace "Funchal,Spain" .
+
+data:Hardy_Mary_Anne_Duffus cwrc:hasBurialPlace <http://sws.geonames.org/2643743/> .
+
+data:Harper_Frances_E_W cwrc:hasBirthPlace <http://sws.geonames.org/4347778/> .
+
+data:Macquoid_Katharine_S cwrc:hasBirthPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Macquoid, Katharine S." .
+
+data:Ogilvy_Eliza cwrc:inhabits <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2650225/> , <http://sws.geonames.org/2640358/> , <http://sws.geonames.org/2657306/> , <http://sws.geonames.org/3164603/> , <http://sws.geonames.org/3176959/> , <http://sws.geonames.org/2988507/> .
+
+data:Blagden_Isa cwrc:hasDeathPlace <http://sws.geonames.org/3176959/> .
+
+data:Arnold_Matthew cwrc:hasDeathPlace <http://sws.geonames.org/2644210/> .
+
+data:Blackmore_R_D cwrc:hasBirthPlace <http://sws.geonames.org/2643611/> .
+
+data:Parkes_Bessie_Rayner cwrc:inhabits "La Celle St Cloud,France" , <http://sws.geonames.org/2988507/> , <http://sws.geonames.org/2637636/> , <http://sws.geonames.org/2656997/> .
+
+data:Oliphant_Margaret cwrc:inhabits <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/2643743/> .
+
+data:Cary_Mary_Ann_Shadd cwrc:hasBirthPlace <http://sws.geonames.org/4145381/> .
+
+data:Chanter_Charlotte cwrc:inhabits "Barnack,Lincolnshire,England" , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/11609029/> , <http://sws.geonames.org/2652776/> .
+
+data:Munro_Georgina cwrc:hasBirthPlace <http://sws.geonames.org/2648657/> ;
+	rdfs:label "Munro, Georgina" .
+
+data:Skene_Felicia cwrc:inhabits <http://sws.geonames.org/2640729/> , <http://sws.geonames.org/264371/> , <http://sws.geonames.org/2650225/> , <http://sws.geonames.org/2644737/> .
+
+data:Yonge_Charlotte cwrc:hasDeathPlace <http://sws.geonames.org/2640853/> .
+
+data:Butler_Josephine cwrc:hasDeathPlace <http://sws.geonames.org/2633606/> .
+
+data:Froude_James_Anthony cwrc:hasDeathPlace <http://sws.geonames.org/11609025/> .
+
+data:Shore_Louisa_Catherine cwrc:inhabits <http://sws.geonames.org/11609036/> , <http://sws.geonames.org/2641648/> , <http://sws.geonames.org/7294328/> , "Orchard Poyle,Berkshire,England" , <http://sws.geonames.org/2636250/> , <http://sws.geonames.org/2988507/> .
+
+data:Shore_Margaret_Emily cwrc:inhabits <http://sws.geonames.org/11609036/> , <http://sws.geonames.org/2641648/> , <http://sws.geonames.org/7294328/> .
+
+data:Smedley_Menella_Bute cwrc:inhabits <http://sws.geonames.org/2636104/> .
+
+data:Marsh_Catherine cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Wilde_Jane_Francesca_Lady cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Alexander_Mrs cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Macquoid_Katharine_S cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Allingham_William cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Marsh_Catherine cwrc:inhabits "Birmingham,West Midlands,England" , <http://sws.geonames.org/2644737/> , <http://sws.geonames.org/2652618/> , <http://sws.geonames.org/2649568/> .
+
+data:Marshall_Emma cwrc:inhabits <http://sws.geonames.org/2654675/> , <http://sws.geonames.org/2652281/> , <http://sws.geonames.org/2634569/> , <http://sws.geonames.org/2649808/> , <http://sws.geonames.org/2648404/> .
+
+data:Victoria_Queen cwrc:hasDeathPlace <http://sws.geonames.org/11609015/> .
+
+data:Nightingale_Florence cwrc:inhabits <http://sws.geonames.org/11609036/> , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/11609031/> .
+
+data:Munro_Georgina cwrc:inhabits <http://sws.geonames.org/964420/> .
+
+data:Godley_Charlotte cwrc:inhabits <http://sws.geonames.org/2188095/> , <http://sws.geonames.org/2643743/> .
+
+data:Sewell_Elizabeth cwrc:hasDeathPlace <http://sws.geonames.org/2655218/> .
+
+data:Skene_Felicia cwrc:hasDeathPlace <http://sws.geonames.org/2640729/> .
+
+data:Meteyard_Eliza cwrc:inhabits <http://sws.geonames.org/2644210/> , <http://sws.geonames.org/11609019/> , <http://sws.geonames.org/11609041/> , <http://sws.geonames.org/2650511/> , <http://sws.geonames.org/2637891/> , <http://sws.geonames.org/2641181/> , <http://sws.geonames.org/2635953/> .
+
+data:Worboise_Emma_Jane cwrc:hasDeathPlace <http://sws.geonames.org/2652861/> .
+
+data:Cary_Mary_Ann_Shadd cwrc:hasDeathPlace <http://sws.geonames.org/4140963/> .
+
+data:Kavanagh_Julia cwrc:hasDeathPlace <http://sws.geonames.org/2990440/> .
+
+data:Moss_Marion cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> ;
+	rdfs:label "Moss, Marion" .
+
+data:Becker_Lydia cwrc:hasDeathPlace <http://sws.geonames.org/2660646/> .
+
+data:Craik_Dinah_Mulock cwrc:inhabits <http://sws.geonames.org/2643743/> .
+
+data:Blackwell_Antoinette_Brown cwrc:hasDeathPlace <http://sws.geonames.org/5097598/> .
+
+data:Meteyard_Eliza cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Shore_Margaret_Emily cwrc:hasDeathPlace <http://sws.geonames.org/2266877/> .
+
+data:Waring_Anna_Letitia cwrc:hasDeathPlace <http://sws.geonames.org/2652838/> .
+
+data:Ballantyne_R_M cwrc:hasDeathPlace <http://sws.geonames.org/3169070/> .
+
+data:Duff_Gordon_Lucie cwrc:hasDeathPlace <http://sws.geonames.org/358683/> .
+
+data:Godley_Charlotte cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Macquoid_Katharine_S cwrc:inhabits <http://sws.geonames.org/2643743/> .
+
+data:Oliphant_Margaret cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Bronte_Charlotte cwrc:hasDeathPlace <http://sws.geonames.org/2647278/> .
+
+data:Ogilvy_Eliza cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Dostoevsky_Fyodor_Mikhailovich cwrc:hasDeathPlace <http://sws.geonames.org/498817/> .
+
+data:Howe_Julia_Ward cwrc:hasDeathPlace <http://sws.geonames.org/5224082/> .
+
+data:Howitt_Anna_Mary cwrc:hasDeathPlace <http://sws.geonames.org/6558171/> ;
+	rdfs:label "Howitt, Anna Mary" .
+
+data:Nightingale_Florence cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Pfeiffer_Emily_Jane cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Marx_Karl cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Cobbe_Frances_Power cwrc:hasDeathPlace <http://sws.geonames.org/2651154/> .
+
+data:Tindal_Henrietta_Euphemia cwrc:hasDeathPlace <http://sws.geonames.org/2656719/> .
+
+data:Buckle_Henry_Thomas cwrc:hasDeathPlace <http://sws.geonames.org/170654/> .
+
+data:Aguilar_Grace cwrc:relocatesTo <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/11609025/> , <http://sws.geonames.org/2654710/> .
+
+data:Ibsen_Henrik cwrc:hasDeathPlace <http://sws.geonames.org/3143244/> .
+
+data:Tytler_Sarah cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Duberly_Frances_Isabella cwrc:inhabits "Caen Hill,England" , <http://sws.geonames.org/2639048/> , <http://sws.geonames.org/2645809/> , <http://sws.geonames.org/2653261/> .
+
+data:Sewell_Anna cwrc:hasDeathPlace <http://sws.geonames.org/7301865/> .
+
+data:Shore_Louisa_Catherine cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Duff_Gordon_Lucie cwrc:inhabits <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/11609041/> , <http://sws.geonames.org/2907911/> , <http://sws.geonames.org/2946447/> .
+
+data:Trollope_Anthony cwrc:hasDeathPlace <http://sws.geonames.org/2643743/> .
+
+data:Spencer_Herbert cwrc:hasDeathPlace <http://sws.geonames.org/2654710/> .
+
+data:Boucicault_Dion cwrc:hasDeathPlace <http://sws.geonames.org/5128581/> .
+
+data:Tucker_Charlotte_Maria cwrc:hasDeathPlace <http://sws.geonames.org/1278710/> .
+
+data:Melville_Herman cwrc:hasDeathPlace <http://sws.geonames.org/5128581/> .
+
+data:Alexander_Mrs cwrc:relocatesTo <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2644210/> , <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/2963597/> .
+
+data:Kortright_Fanny_Aikin cwrc:migratesTo <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/2977845/> .
+
+data:Taylor_Mary cwrc:migratesTo <http://sws.geonames.org/2179537/> .
+
+data:Greenwell_Dora cwrc:inhabits <http://sws.geonames.org/11609047/> , <http://sws.geonames.org/11609048/> , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2652838/> .
+
+data:Grey_Maria cwrc:inhabits <http://sws.geonames.org/2988507/> ;
+	rdfs:label "Grey, Maria" ;
+	cwrc:inhabits <http://sws.geonames.org/3035639/> , <http://sws.geonames.org/6444069/> , "northern Africa" , <http://sws.geonames.org/2510769/> , "Gibraltar" , <http://sws.geonames.org/2634772/> , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2655856/> .
+
+data:Sewell_Elizabeth cwrc:relocatesTo "Pidford,Hampshire,England" , <http://sws.geonames.org/11609015/> , <http://sws.geonames.org/2655218/> .
+
+data:Marshall_Emma cwrc:relocatesTo <http://sws.geonames.org/2641181/> , <http://sws.geonames.org/2652838/> , <http://sws.geonames.org/2654675/> , <http://sws.geonames.org/2634308/> , <http://sws.geonames.org/2648404/> , "Westbury Park,Gloucestershire,England" .
+
+data:Cary_Mary_Ann_Shadd cwrc:migratesTo <http://sws.geonames.org/6167865/> , <http://sws.geonames.org/6182962/> .
+
+data:Meteyard_Eliza cwrc:relocatesTo <http://sws.geonames.org/2643743/> .
+
+data:Wilde_Jane_Francesca_Lady cwrc:inhabits <http://sws.geonames.org/2964574/> , <http://sws.geonames.org/2966022/> , <http://sws.geonames.org/2965232/> .
+
+data:Hubback_Catherine cwrc:migratesTo <http://sws.geonames.org/5128581/> , <http://sws.geonames.org/6254928/> , <http://sws.geonames.org/5378538/> .
+
+data:Parkes_Bessie_Rayner cwrc:relocatesTo <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2655603/> , "La Celle St Cloud,France" , <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/2637636/> .
+
+data:Becker_Lydia cwrc:relocatesTo "Pendle range,England" , <http://sws.geonames.org/2657418/> , <http://sws.geonames.org/2657770/> , <http://sws.geonames.org/2643123/> , <http://sws.geonames.org/6691254/> .
+
+data:Howe_Julia_Ward cwrc:inhabits <http://sws.geonames.org/5128581/> , "Dorchester,Massachusettes,USA" , <http://sws.geonames.org/4930956/> .
+
+data:Howitt_Anna_Mary cwrc:inhabits <http://sws.geonames.org/2643743/> .
+
+data:Oliphant_Margaret cwrc:relocatesTo <http://sws.geonames.org/2648579/> , <http://sws.geonames.org/2650225/> , <http://sws.geonames.org/2644832/> , <http://sws.geonames.org/2640729/> , <http://sws.geonames.org/2633842/> , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2655613/> , <http://sws.geonames.org/2638360/> , <http://sws.geonames.org/2644210/> , <http://sws.geonames.org/3175395/> , <http://sws.geonames.org/2650117/> , <http://sws.geonames.org/2650567/> .
+
+data:Kavanagh_Julia cwrc:migratesTo <http://sws.geonames.org/2963597/> .
+
+data:Leakey_Caroline cwrc:migratesTo <http://sws.geonames.org/7839672/> , <http://sws.geonames.org/6269131/> .
+
+data:Martin_Mary cwrc:migratesTo <http://sws.geonames.org/2796741/> , <http://sws.geonames.org/5128581/> .
+
+data:Hardy_Mary_Anne_Duffus cwrc:inhabits <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2634204/> , <http://sws.geonames.org/2657676/> .
+
+data:Harper_Frances_E_W cwrc:inhabits "Little York,Pennsylvania,USA" , <http://sws.geonames.org/5165418/> .
+
+data:Hubback_Catherine cwrc:inhabits <http://sws.geonames.org/2639996/> , <http://sws.geonames.org/2655613/> .
+
+data:Hume_Mary_Catherine cwrc:inhabits <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/11609041/> , <http://sws.geonames.org/2643123/> , <http://sws.geonames.org/2642593/> .
+
+data:Browne_Frances cwrc:relocatesTo <http://sws.geonames.org/2650225/> , <http://sws.geonames.org/2963597/> , <http://sws.geonames.org/2643743/> .
+
+data:Banks_Isabella cwrc:hasSpatialRelationTo data:Banks_George_Linnaeus , cwrc:Harrogate_Advertiser_TITLE , <http://sws.geonames.org/2643743/> .
+
+data:Greenwell_Dora cwrc:relocatesTo <http://sws.geonames.org/11609026/> , <http://sws.geonames.org/2635650/> , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2652838/> .
+
+data:Marx_Karl cwrc:migratesFrom <http://sws.geonames.org/2921044/> .
+
+data:Bronte_Anne cwrc:relocatesTo <http://sws.geonames.org/2647278/> .
+
+data:Bronte_Emily cwrc:relocatesTo <http://sws.geonames.org/2647278/> .
+
+data:Bronte_Charlotte cwrc:relocatesTo <http://sws.geonames.org/2647278/> , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2800866/> .
+
+data:Leakey_Caroline cwrc:migratesFrom <http://sws.geonames.org/2147291/> .
+
+data:Becker_Lydia cwrc:hasSpatialRelationTo data:Becker_Esther , <http://sws.geonames.org/2643123/> , data:Piutti_Hermann , cwrc:British_Association_for_the_Advancement_of_Science_ORG .
+
+data:Taylor_Mary cwrc:migratesFrom <http://sws.geonames.org/2643743/> .
+
+data:Grey_Maria cwrc:relocatesTo "Gibraltar" , <http://sws.geonames.org/6269131/> .
+
+data:Butler_Josephine cwrc:hasSpatialRelationTo data:Butler_George_1819_-_1890 .
+
+data:Byron_Augusta_Ada cwrc:hasSpatialRelationTo data:Baillie_Joanna , data:Noel_Byron_Anne_Isabella_Baroness , data:Leigh_Elizabeth_Medora .
+
+data:Tindal_Henrietta_Euphemia cwrc:inhabits <http://sws.geonames.org/2656719/> .
+
+data:Tucker_Charlotte_Maria cwrc:inhabits <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2633849/> , <http://sws.geonames.org/2655009/> , <http://sws.geonames.org/7294200/> .
+
+data:Hubback_Catherine cwrc:migratesFrom <http://sws.geonames.org/6269131/> .
+
+data:Tytler_Sarah cwrc:inhabits <http://sws.geonames.org/2640729/> .
+
+data:Ingelow_Jean cwrc:relocatesTo <http://sws.geonames.org/11609040/> , <http://sws.geonames.org/2646057/> , <http://sws.geonames.org/2643743/> .
+
+data:Howitt_Anna_Mary cwrc:relocatesTo <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2921044/> , <http://sws.geonames.org/2641170/> , <http://sws.geonames.org/2649911/> .
+
+data:Hume_Mary_Catherine cwrc:relocatesTo <http://sws.geonames.org/2637487/> , <http://sws.geonames.org/2643123/> , <http://sws.geonames.org/2653261/> .
+
+data:Moss_Marion cwrc:relocatesTo <http://sws.geonames.org/2643743/> .
+
+data:Kortright_Fanny_Aikin cwrc:relocatesTo <http://sws.geonames.org/2643743/> .
+
+data:Tytler_Harriet cwrc:relocatesTo "India" , <http://sws.geonames.org/2655603/> , <http://sws.geonames.org/1278647/> , <http://sws.geonames.org/1281789/> , <http://sws.geonames.org/1269843/> .
+
+data:Tytler_Sarah cwrc:relocatesTo <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2638360/> , <http://sws.geonames.org/2640729/> , <http://sws.geonames.org/2654675/> .
+
+data:Kavanagh_Julia cwrc:relocatesTo <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2988507/> , <http://sws.geonames.org/2982652/> .
+
+data:Keary_Annie cwrc:relocatesTo <http://sws.geonames.org/2645425/> , <http://sws.geonames.org/8581589/> , <http://sws.geonames.org/2652838/> , <http://sws.geonames.org/2654675/> , <http://sws.geonames.org/2643743/> .
+
+data:Duff_Gordon_Lucie cwrc:hasSpatialRelationTo data:Austin_John_1790_-_1859 , cwrc:University_of_London_ORG , data:Schlegel_August_Wilhelm_von , data:Niebuhr_Barthold , <http://sws.geonames.org/2643743/> , data:Duff_Gordon_Sir_Alexander , data:Heine_Heinrich , data:Halaweh_Omar_Abu , data:Ross_Janet , data:Naldrett_Sally .
+
+data:Tucker_Charlotte_Maria cwrc:relocatesTo <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/1275339/> , <http://sws.geonames.org/6251999/> , <http://sws.geonames.org/1172451/> , <http://sws.geonames.org/1276720/> , <http://sws.geonames.org/1278710/> .
+
+data:Duff_Gordon_Lucie cwrc:hasSpatialRelationTo data:Ross_Henry_James , cwrc:Egyptian_Commercial_and_Trading_Company_ORG .
+
+data:Eliot_George cwrc:hasSpatialRelationTo data:Jones_Owen , data:Evans_Robert_1773_-_1849 , <http://sws.geonames.org/2641157/> , <http://sws.geonames.org/2643743/> , data:Lewes_George_Henry , data:Liszt_Franz , data:Cross_John_Walter .
+
+data:Dostoevsky_Fyodor_Mikhailovich cwrc:hasSpatialRelationTo <http://sws.geonames.org/2643743/> .
+
+data:Duberly_Frances_Isabella cwrc:hasSpatialRelationTo cwrc:8th_Royal_Irish_Hussars_ORG , data:Duberly_Henry , cwrc:East_India_Company_ORG , data:Lucan_George_Bingham_third_Earl_of , data:Cardigan_James_Thomas_Brudenell_seventh_Earl_of , data:Raglan_Fitzroy_James_Henry_Somerset_first_Baron , data:Errol_Eliza_Amelia_Countess_of , cwrc:United_Services_Gazette_TITLE .
+
+data:Shore_Louisa_Catherine cwrc:relocatesTo <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/2266877/> .
+
+data:Smedley_Menella_Bute cwrc:relocatesTo <http://sws.geonames.org/2643743/> .
+
+data:Yonge_Charlotte cwrc:inhabits <http://sws.geonames.org/2640853/> .
+
+data:Nightingale_Florence cwrc:relocatesTo "Balaklava,Crimea,Ukraine" , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/738329/> .
+
+data:Bronte_Charlotte cwrc:hasSpatialRelationTo data:Gaskell_Elizabeth , cwrc:Wuthering_Heights_TITLE , cwrc:The_Life_of_Charlotte_Bronte_TITLE , data:Nussey_Ellen , data:Kay-Shuttleworth_Lady_Janet , data:Kay-Shuttleworth_Sir_James_Philips , data:Chorley_Henry_Fothergill , data:Forster_John , data:Smith_George_Murray , cwrc:Smith_Elder_and_Co_ORG , data:Smith_Eliza , data:Martineau_Harriet , cwrc:Villette_TITLE , data:Thackeray_William_Makepeace , cwrc:Somerset_House_ORG , data:Felix_Elisa .
+
+data:Boucicault_Dion cwrc:migratesTo <http://sws.geonames.org/6252001/> .
+
+data:Bronte_Charlotte cwrc:hasSpatialRelationTo data:Ritchie_Anne_Thackeray , data:Procter_Adelaide , data:Bronte_Anne , data:Lewes_George_Henry , data:Wellington_Arthur_Wellesley_first_Duke_of , cwrc:House_of_Commons_ORG , cwrc:Society_of_Friends_ORG , data:Richmond_George , cwrc:Chapel_Royal_ORG .
+
+data:Cobbe_Frances_Power cwrc:relocatesTo <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/2963597/> , <http://sws.geonames.org/2964765/> , <http://sws.geonames.org/2654136/> , <http://sws.geonames.org/2651154/> , <http://sws.geonames.org/2652838/> , <http://sws.geonames.org/7300645/> .
+
+data:Evans_Anne cwrc:relocatesTo <http://sws.geonames.org/2654269/> , <http://sws.geonames.org/7290807/> , <http://sws.geonames.org/2643743/> .
+
+data:Bronte_Anne cwrc:hasSpatialRelationTo data:Gaskell_Elizabeth , cwrc:The_Life_of_Charlotte_Bronte_TITLE .
+
+data:Bronte_Emily cwrc:hasSpatialRelationTo data:Bronte_Anne .
+
+data:Cobbe_Frances_Power cwrc:relocatesTo <http://sws.geonames.org/2634895/> , <http://sws.geonames.org/2643743/> .
+
+data:Linton_Eliza_Lynn cwrc:relocatesTo "Gadshill,Kent,England" , <http://sws.geonames.org/6693101/> , <http://sws.geonames.org/2654034/> , "Keswick,Cumbria,England" , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2648063/> , <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/3175395/> .
+
+data:Ogilvy_Eliza cwrc:relocatesTo <http://sws.geonames.org/2654747/> .
+
+data:Kavanagh_Julia cwrc:hasSpatialRelationTo <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2988507/> , data:Kavanagh_Bridget , data:Kavanagh_Morgan , cwrc:French_Women_of_Letters_TITLE .
+
+data:Butler_Josephine cwrc:relocatesTo "Dilston,Northumberland,England" , <http://sws.geonames.org/11427403/> , <http://sws.geonames.org/2640729/> , <http://sws.geonames.org/2653261/> , <http://sws.geonames.org/2644210/> .
+
+data:Keary_Annie cwrc:hasSpatialRelationTo cwrc:Church_Missionary_Society_ORG , <http://sws.geonames.org/2635497/> , <http://sws.geonames.org/2643743/> , cwrc:Home_for_Young_Servants_ORG , data:Martineau_Harriet , <http://sws.geonames.org/357994/> , cwrc:Castle_Daly_TITLE .
+
+data:Reid_Marion cwrc:relocatesTo <http://sws.geonames.org/2644210/> , <http://sws.geonames.org/6252001/> , <http://sws.geonames.org/6324729/> .
+
+data:Craik_Dinah_Mulock cwrc:relocatesTo <http://sws.geonames.org/2636841/> , <http://sws.geonames.org/2641674/> , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2648579/> , <http://sws.geonames.org/2634545/> , <http://sws.geonames.org/2652732/> .
+
+data:Taylor_Mary cwrc:relocatesTo <http://sws.geonames.org/2921044/> .
+
+data:Charles_Elizabeth cwrc:relocatesTo <http://sws.geonames.org/2636174/> , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2638360/> , <http://sws.geonames.org/2658434/> , <http://sws.geonames.org/3175395/> , <http://sws.geonames.org/2963597/> .
+
+data:Evans_Anne cwrc:hasSpatialRelationTo data:Evans_Arthur_Benoni , data:Ritchie_Anne_Thackeray , data:Evans_Anne_Dickinson , data:Evans_Sebastian .
+
+data:Cary_Mary_Ann_Shadd cwrc:relocatesTo <http://sws.geonames.org/4145381/> , <http://sws.geonames.org/5128581/> , <http://sws.geonames.org/4562144/> , <http://sws.geonames.org/5203506/> , <http://sws.geonames.org/6167865/> , <http://sws.geonames.org/5920457/> , <http://sws.geonames.org/4140963/> , <http://sws.geonames.org/4990729/> , <http://sws.geonames.org/6251999/> .
+
+data:Blackwell_Antoinette_Brown cwrc:hasSpatialRelationTo cwrc:NAWSA_ORG .
+
+data:Bodichon_Barbara_Leigh_Smith cwrc:hasSpatialRelationTo data:Parkes_Bessie_Rayner , data:Chapman_John , data:Spring_Marcus , cwrc:Raritan_Bay_Union_ORG , cwrc:Englewood_School_ORG .
+
+data:Marsh_Catherine cwrc:relocatesTo <http://sws.geonames.org/2654710/> , <http://sws.geonames.org/7292287/> , <http://vocab.getty.edu/tgn/7012156> , <http://sws.geonames.org/2656065/> .
+
+data:Cary_Mary_Ann_Shadd cwrc:hasSpatialRelationTo data:Delany_Martin , data:Shadd_Abraham_Doras , data:Shadd_Harriet , data:Bibb_Henry , cwrc:A_Plea_for_Emigration_TITLE , cwrc:American_Missionary_Association_ORG , <http://sws.geonames.org/5947586/> , <http://sws.geonames.org/6252001/> , data:Shadd_Isaac .
+
+data:Nightingale_Florence cwrc:hasSpatialRelationTo data:Bracebridge_Charles , data:Bracebridge_Selina , cwrc:Sisters_of_St_Vincent_de_Paul_ORG , data:Herbert_Elizabeth_Lady , data:Herbert_Sidney_first_Baron , data:Pembroke_Mary_Sidney_Herbert_Countess_of , data:Mohl_Mary_Clarke .
+
+data:Charles_Elizabeth cwrc:hasSpatialRelationTo data:Charles_Andrew_Paton , data:Rundle_Barbara , data:Rundle_John .
+
+data:Butler_Josephine cwrc:hasSpatialRelationTo cwrc:Liverpool_College_ORG , data:Meuricoffre_Harriet , data:Butler_Stanley , data:Stuart_James_1843_-_1913 .
+
+data:Eliot_George cwrc:relocatesTo <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/6255148/> , <http://sws.geonames.org/2633731/> .
+
+data:Chanter_Charlotte cwrc:hasSpatialRelationTo cwrc:Oxford_Dictionary_of_National_Biography_TITLE , data:Colloms_Brenda .
+
+data:Eliot_George cwrc:relocatesTo <http://sws.geonames.org/10103874/> , <http://sws.geonames.org/2641157/> , <http://sws.geonames.org/2652221/> , <http://sws.geonames.org/2651048/> .
+
+data:Cary_Mary_Ann_Shadd cwrc:hasSpatialRelationTo cwrc:The_Provincial_Freeman_TITLE , data:Rhodes_Jane .
+
+data:Duff_Gordon_Lucie cwrc:relocatesTo <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2562770/> , <http://sws.geonames.org/3031133/> , <http://sws.geonames.org/2649911/> .
+
+data:Taylor_Mary cwrc:hasSpatialRelationTo data:Taylor_William_Waring , <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/2179537/> , data:Taylor_Martha , data:Taylor_John_b_1813 , data:Taylor_Joseph , cwrc:Swiss_Notes_by_Five_Ladies_TITLE .
+
+data:Duberly_Frances_Isabella cwrc:relocatesTo <http://sws.geonames.org/2650225/> , <http://sws.geonames.org/2964574/> , <http://sws.geonames.org/11609034/> .
+
+data:Tindal_Henrietta_Euphemia cwrc:hasSpatialRelationTo data:Wilkes_John .
+
+data:Burton_Richard_Francis cwrc:hasSpatialRelationTo cwrc:British_Army_ORG , cwrc:Royal_Geographical_Society_ORG , data:Speke_John .
+
+data:Waring_Anna_Letitia cwrc:relocatesTo <http://sws.geonames.org/2654675/> .
+
+data:Wilde_Jane_Francesca_Lady cwrc:relocatesTo <http://sws.geonames.org/2964574/> , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2963597/> .
+
+data:Cobbe_Frances_Power cwrc:hasSpatialRelationTo data:Cobbe_Charles_1687_-_1765 , data:Cobbe_Thomas_1813_-_1882 , data:Carpenter_Mary , <http://sws.geonames.org/2654675/> , data:Lloyd_Mary_d_1896 , <http://sws.geonames.org/2643743/> , data:Kemble_Fanny , <http://sws.geonames.org/2651154/> , data:Yates_Anna , data:Mitchell_Sally , cwrc:House_of_Lords_ORG , data:Cobbe_Azelie , data:Blagden_Isa .
+
+data:Marsh_Catherine cwrc:hasSpatialRelationTo data:ORorke_Lucy , data:Cairns_Hugh_McCalmont_first_Earl , data:ORorke_Henry , data:Marsh_William_1775_-_1864 , data:Chalmers_Frederick , data:Chalmers_Matilda .
+
+data:Marshall_Emma cwrc:hasSpatialRelationTo cwrc:West_of_England_Bank_ORG , cwrc:Royal_Literary_Fund_ORG .
+
+data:Hays_Matilda cwrc:hasSpatialRelationTo data:Cushman_Charlotte , data:Hosmer_Harriet , data:Greenwood_Grace .
+
+data:Oliphant_Margaret cwrc:hasSpatialRelationTo data:Tulloch_Jane_Anne , data:Tulloch_John , data:Ritchie_Anne_Thackeray , data:Stephen_Sir_Leslie , cwrc:Paris_Commune_ORG , data:James_Henry , <http://sws.geonames.org/2643743/> , cwrc:Balliol_College_Oxford_University_ORG , data:Jameson_Anna_Brownell , data:Macpherson_Gerardine , data:Macpherson_Robert , data:Oliphant_Laurence , data:Oliphant_Alice , data:Oliphant_Francis_Wilson , data:Hockey_Jane .
+
+data:Tucker_Charlotte_Maria cwrc:hasSpatialRelationTo data:Tucker_St_George , <http://sws.geonames.org/2643743/> , cwrc:Anglican_Church_ORG , data:Dawson_Edwin_Collas , cwrc:Indian_Female_Normal_School_and_Instruction_Society_ORG , cwrc:Zenana_Missionary_Society_ORG , <http://sws.geonames.org/6269131/> , data:Tucker_William , data:Tucker_Charley .
+
+data:Kortright_Fanny_Aikin cwrc:hasSpatialRelationTo <http://sws.geonames.org/2643743/> .
+
+data:Ogilvy_Eliza cwrc:hasSpatialRelationTo <http://sws.geonames.org/2643743/> , data:Ogilvy_Louisa_Mary , data:Bell_Marcia_Napier , data:Dick_Charlotte .
+
+data:Greenwell_Dora cwrc:hasSpatialRelationTo data:Greenwell_Alan , data:Greenwell_Dorothy , data:Greenwell_William_Thomas , <http://sws.geonames.org/11609048/> , data:Greenwell_William_1820_-_1918 , data:Nicoll_William_Robertson .
+
+data:Godley_Charlotte cwrc:hasSpatialRelationTo cwrc:Letters_from_Early_New_Zealand_TITLE , data:Kilbracken_Arthur_Godley_first_Baron .
+
+data:Parkes_Bessie_Rayner cwrc:hasSpatialRelationTo data:Fullerton_Georgiana , <http://sws.geonames.org/3017382/> , <http://sws.geonames.org/2643743/> , data:Goethe_Johann_Wolfgang_von , data:Bodichon_Barbara_Leigh_Smith , data:Belloc_Hilaire .
+
+data:Godley_Charlotte cwrc:hasSpatialRelationTo data:Godley_Eveline_C , data:Godley_John_Robert .
+
+data:Grey_Maria cwrc:hasSpatialRelationTo data:Shirreff_Emily , data:Grey_William_Thomas , data:Novello_Ivor .
+
+data:Leakey_Caroline cwrc:hasSpatialRelationTo data:Nixon_Anna_Maria , data:Nixon_Francis_Russell , data:Garlick_T_B , cwrc:The_Broad_Arrow_TITLE , cwrc:The_Feminist_Companion_to_Literature_in_English_Women_Writers_from_the_Middle_Ages_to_the_Present_TITLE , data:Medland_Eliza .
+
+data:Yonge_Charlotte cwrc:relocatesTo <http://sws.geonames.org/2640853/> .
+
+data:Craik_Dinah_Mulock cwrc:hasSpatialRelationTo data:Mulock_Thomas , data:Mulock_Dinah , <http://sws.geonames.org/2643743/> .
+
+data:Bodichon_Barbara_Leigh_Smith cwrc:travelsTo <http://sws.geonames.org/2658434/> , <http://sws.geonames.org/2782113/> , <http://sws.geonames.org/2802361/> , <http://sws.geonames.org/2921044/> , <http://sws.geonames.org/6255148/> , <http://sws.geonames.org/3169070/> , <http://sws.geonames.org/6252001/> .
+
+data:Linton_Eliza_Lynn cwrc:hasSpatialRelationTo data:Thackeray_William_Makepeace , cwrc:Morning_Chronicle_TITLE , data:Chapman_John , data:Sichel_Beatrice .
+
+data:Baudelaire_Charles cwrc:travelsTo "Indian Ocean" , "Réunion" , <http://sws.geonames.org/3017382/> .
+
+data:Moss_Marion cwrc:hasSpatialRelationTo cwrc:Early_Efforts_TITLE .
+
+data:Becker_Lydia cwrc:travelsTo <http://sws.geonames.org/2822540/> , <http://sws.geonames.org/2921044/> .
+
+data:Bronte_Emily cwrc:travelsTo <http://sws.geonames.org/2633352/> .
+
+data:Procter_Adelaide cwrc:hasSpatialRelationTo data:Carlyle_Thomas , <http://sws.geonames.org/2643743/> , data:Montagu_Basil , data:Skepper_Anne_Benson , data:Parkes_Bessie_Rayner , data:Viry_Emily_de .
+
+data:Bronte_Anne cwrc:travelsTo <http://sws.geonames.org/2638419/> .
+
+data:Bronte_Charlotte cwrc:travelsTo <http://sws.geonames.org/2654728/> , <http://sws.geonames.org/2638419/> , <http://sws.geonames.org/2645022/> , <http://sws.geonames.org/2633852/> .
+
+data:Reid_Marion cwrc:hasSpatialRelationTo data:Reid_Hugo , cwrc:Liverpool_High_School_ORG , cwrc:Dictionary_of_National_Biography_TITLE , data:Ferguson_Susanne , data:Waite_Peter_B , cwrc:Dalhousie_High_School_ORG , cwrc:Dalhousie_University_ORG .
+
+data:Wilde_Jane_Francesca_Lady cwrc:hasSpatialRelationTo data:Wilde_Oscar , <http://sws.geonames.org/2964574/> , <http://sws.geonames.org/2643743/> , data:Wilde_William_Charles_Kingsbury , data:Hilson_John , data:Renwick_Jean_Jessie , <http://sws.geonames.org/2655192/> , data:Wilde_Sir_William_Robert_Wills .
+
+data:Duff_Gordon_Lucie cwrc:travelsTo <http://sws.geonames.org/2647356/> , <http://sws.geonames.org/3031133/> , <http://sws.geonames.org/2802361/> , <http://sws.geonames.org/3017382/> , <http://sws.geonames.org/3077311/> , <http://sws.geonames.org/2988507/> , <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/276781/> , <http://sws.geonames.org/361058/> , <http://sws.geonames.org/360502/> , <http://vocab.getty.edu/tgn/7016540> , <http://sws.geonames.org/360630/> .
+
+data:Dostoevsky_Fyodor_Mikhailovich cwrc:travelsTo <http://sws.geonames.org/2017370/> , <http://sws.geonames.org/2643743/> .
+
+data:Duberly_Frances_Isabella cwrc:travelsTo "Tenedos,Greece" , <http://sws.geonames.org/2562770/> , <http://sws.geonames.org/256866/> , <http://sws.geonames.org/746983/> , <http://sws.geonames.org/749780/> , "Eupatoria Bay,Ukraine" , <http://sws.geonames.org/694423/> , <http://sws.geonames.org/713523/> , <http://sws.geonames.org/726050/> , "Mandavee,Guld of Kutch,India" , <http://sws.geonames.org/3369157/> , <http://sws.geonames.org/10249899/> , <http://sws.geonames.org/1270583/> , <http://sws.geonames.org/1275812/> , <http://sws.geonames.org/3374818/> , <http://sws.geonames.org/1275339/> , <http://sws.geonames.org/2965260/> , "Balaklava,Crimea,Ukraine" , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/745044/> , <http://sws.geonames.org/2640194/> , <http://sws.geonames.org/745028/> , <http://sws.geonames.org/2639996/> , <http://sws.geonames.org/3313030/> .
+
+data:Howe_Julia_Ward cwrc:hasSpatialRelationTo cwrc:The_Battle_Hymn_of_the_Republic_TITLE .
+
+data:Howitt_Anna_Mary cwrc:hasSpatialRelationTo data:Scott_William_Bell .
+
+data:Burton_Richard_Francis cwrc:travelsTo "Nile" .
+
+data:Hubback_Catherine cwrc:hasSpatialRelationTo <http://sws.geonames.org/2639996/> .
+
+data:Hume_Mary_Catherine cwrc:hasSpatialRelationTo data:Walkowitz_Judith_R , data:Hume-Rothery_William , data:Cottrell_Henry , data:Cottrell_Sophia , data:Tulk_Charles_Augustus .
+
+data:Burton_Richard_Francis cwrc:travelsTo "India" , <http://sws.geonames.org/6255146/> , "Lake Tanganyika" , "Lake Victoria" , "White Nile" , <http://sws.geonames.org/6252001/> , <http://sws.geonames.org/2233387/> , <http://vocab.getty.edu/tgn/7032927> , <http://sws.geonames.org/357994/> , <http://sws.geonames.org/104515/> , <http://sws.geonames.org/109223/> .
+
+data:Victoria_Queen cwrc:hasSpatialRelationTo data:Leopold_I_King_of_Belgium , data:Louis-Philippe_King_of_France , data:Napoleon_III_Emperor_of_France , data:Eugenie_Empress_of_France .
+
+data:Hays_Matilda cwrc:travelsTo <http://sws.geonames.org/4508722/> , <http://sws.geonames.org/4930956/> , <http://sws.geonames.org/3169070/> , <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/3175395/> .
+
+data:Harper_Frances_E_W cwrc:travelsTo <http://sws.geonames.org/6251999/> , <http://sws.geonames.org/6252001/> .
+
+data:Macquoid_Katharine_S cwrc:hasSpatialRelationTo data:Macquoid_Percy .
+
+data:Tytler_Harriet cwrc:hasSpatialRelationTo data:Tytler_Robert .
+
+data:Tytler_Sarah cwrc:hasSpatialRelationTo <http://sws.geonames.org/2643743/> , data:Keddie_Margaret , <http://sws.geonames.org/2640729/> , data:Smith_Hastings_Bertrand_Lees .
+
+data:Sewell_Elizabeth cwrc:hasSpatialRelationTo data:Sewell_Rev_William , cwrc:Dictionary_of_National_Biography_TITLE , cwrc:Institute_for_Protestant_Deaconesses_ORG .
+
+data:Hardy_Mary_Anne_Duffus cwrc:travelsTo "Florida,USA" , <http://sws.geonames.org/4335045/> , <http://sws.geonames.org/4597040/> , <http://sws.geonames.org/5128581/> , <http://sws.geonames.org/6094817/> , <http://sws.geonames.org/6167865/> , <http://sws.geonames.org/6251999/> , <http://sws.geonames.org/6252001/> , <http://sws.geonames.org/6254928/> , <http://sws.geonames.org/3621911/> , <http://sws.geonames.org/4197000/> .
+
+data:Hays_Matilda cwrc:hasSpatialRelationTo data:Cook_Eliza .
+
+data:Hardy_Mary_Anne_Duffus cwrc:hasSpatialRelationTo data:Hardy_Iza_Duffus , data:Beauregard_Pierre_Gustave_Toutant , data:Holmes_Oliver_Wendell , data:Longfellow_Henry_Wadsworth .
+
+data:Ruskin_John cwrc:hasSpatialRelationTo cwrc:The_Seven_Lamps_of_Architecture_TITLE , cwrc:The_Stones_of_Venice_TITLE .
+
+data:Hardy_Mary_Anne_Duffus cwrc:hasSpatialRelationTo data:Black_Helen_C , <http://sws.geonames.org/2643743/> .
+
+data:Blagden_Isa cwrc:travelsTo <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/2782113/> , <http://sws.geonames.org/3017382/> , <http://sws.geonames.org/3117735/> , <http://sws.geonames.org/3164603/> , <http://sws.geonames.org/3169070/> , <http://sws.geonames.org/3166548/> .
+
+data:Yonge_Charlotte cwrc:hasSpatialRelationTo <http://sws.geonames.org/2640853/> , data:Colbourne_Jane , data:Yonge_Julian .
+
+data:Shore_Louisa_Catherine cwrc:hasSpatialRelationTo data:Shore_Margaret_Emily .
+
+data:Smedley_Menella_Bute cwrc:hasSpatialRelationTo <http://sws.geonames.org/2643743/> .
+
+data:Butler_Josephine cwrc:travelsTo <http://sws.geonames.org/2963597/> , <http://sws.geonames.org/2658434/> , <http://sws.geonames.org/3017382/> , <http://sws.geonames.org/3175395/> .
+
+data:Ingelow_Jean cwrc:hasSpatialRelationTo data:Ingelow_William_Frederick , <http://sws.geonames.org/2643743/> .
+
+data:Burton_Richard_Francis cwrc:travelsTo <http://sws.geonames.org/226074/> , <http://sws.geonames.org/366755/> .
+
+data:Byron_Augusta_Ada cwrc:travelsTo "Alps" , <http://sws.geonames.org/3176219/> , <http://sws.geonames.org/2660647/> , <http://sws.geonames.org/3165524/> , <http://sws.geonames.org/3181986/> , <http://sws.geonames.org/2825297/> , <http://sws.geonames.org/6255148/> , <http://sws.geonames.org/2988507/> .
+
+data:Marx_Karl cwrc:hasSpatialRelationTo <http://sws.geonames.org/2643743/> .
+
+data:Martin_Mary cwrc:hasSpatialRelationTo data:Bell_Arthur_Gonne .
+
+data:Eliot_George cwrc:travelsTo <http://sws.geonames.org/2638360/> , <http://sws.geonames.org/2645022/> , <http://sws.geonames.org/2660646/> , <http://sws.geonames.org/2649258/> , <http://sws.geonames.org/3029162/> , <http://sws.geonames.org/6255148/> , <http://sws.geonames.org/2800866/> , <http://sws.geonames.org/2812482/> , <http://sws.geonames.org/2886242/> , <http://sws.geonames.org/2925533/> , <http://sws.geonames.org/2950159/> , <http://sws.geonames.org/3164603/> .
+
+data:Meteyard_Eliza cwrc:hasSpatialRelationTo cwrc:The_Doctors_Little_Daughter_TITLE , data:Howitt_Anna_Mary , data:Howitt_Mary , data:Hunt_Leigh , data:Marsh_Anne , data:Martineau_Harriet , data:Gillies_Margaret , data:Hays_Matilda , data:Howitt_William , data:Smith_Thomas_Southwood .
+
+data:Pfeiffer_Emily_Jane cwrc:travelsTo "Rhine River" , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/6255148/> , <http://sws.geonames.org/6255147/> , <http://sws.geonames.org/6255149/> .
+
+data:Oliphant_Margaret cwrc:travelsTo <http://sws.geonames.org/3166548/> , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/3176959/> , <http://sws.geonames.org/3175395/> , <http://sws.geonames.org/2658434/> , <http://sws.geonames.org/2988507/> , <http://sws.geonames.org/9610282/> , <http://sws.geonames.org/3030288/> , <http://sws.geonames.org/2660498/> , <http://sws.geonames.org/3017382/> , <http://sws.geonames.org/3164603/> , <http://sws.geonames.org/3169070/> , <http://sws.geonames.org/281184/> , <http://sws.geonames.org/294640/> , <http://sws.geonames.org/294801/> , <http://sws.geonames.org/294459/> , <http://sws.geonames.org/357994/> , <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/2661786/> , <http://sws.geonames.org/3167777/> .
+
+data:Cobbe_Frances_Power cwrc:travelsTo <http://sws.geonames.org/264371/> , <http://sws.geonames.org/276781/> , <http://sws.geonames.org/281184/> , <http://sws.geonames.org/3165185/> , <http://sws.geonames.org/3176959/> , <http://sws.geonames.org/357994/> , <http://sws.geonames.org/6255148/> , <http://sws.geonames.org/745044/> .
+
+data:Ogilvy_Eliza cwrc:travelsTo <http://sws.geonames.org/2640357/> , "India" .
+
+data:Victoria_Queen cwrc:travelsTo <http://sws.geonames.org/3017382/> , <http://sws.geonames.org/2999093/> , <http://sws.geonames.org/2988507/> .
+
+data:Trollope_Anthony cwrc:travelsTo <http://sws.geonames.org/2562770/> , <http://sws.geonames.org/2638360/> , <http://sws.geonames.org/2964574/> , <http://sws.geonames.org/357994/> , <http://sws.geonames.org/953987/> , <http://sws.geonames.org/11609025/> , <http://sws.geonames.org/7729891/> , <http://sws.geonames.org/11609046/> .
+
+data:Charles_Elizabeth cwrc:travelsTo <http://sws.geonames.org/294640/> , <http://sws.geonames.org/298795/> , <http://sws.geonames.org/3175395/> , <http://sws.geonames.org/357994/> , <http://sws.geonames.org/390903/> .
+
+data:Tucker_Charlotte_Maria cwrc:travelsTo <http://sws.geonames.org/2800866/> , <http://sws.geonames.org/1275339/> , <http://sws.geonames.org/1278994/> , <http://sws.geonames.org/1278710/> .
+
+data:Tytler_Sarah cwrc:travelsTo <http://sws.geonames.org/2658434/> , <http://sws.geonames.org/2750405/> , <http://sws.geonames.org/2921044/> , <http://sws.geonames.org/3017382/> .
+
+data:Tytler_Harriet cwrc:travelsTo <http://sws.geonames.org/1264733/> , <http://sws.geonames.org/1275004/> , "India" , <http://sws.geonames.org/5909050/> .
+
+data:Eliot_George cwrc:visits <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2510911/> , <http://sws.geonames.org/2517117/> , <http://sws.geonames.org/2519240/> , <http://sws.geonames.org/2636104/> , <http://sws.geonames.org/2658434/> , <http://sws.geonames.org/2867714/> , <http://sws.geonames.org/2950159/> , <http://sws.geonames.org/3128760/> , <http://sws.geonames.org/3164603/> , <http://sws.geonames.org/3169070/> , <http://sws.geonames.org/3176219/> , <http://sws.geonames.org/3176959/> , <http://sws.geonames.org/3237212/> .
+
+data:Ingelow_Jean cwrc:visits <http://sws.geonames.org/2656173/> , <http://sws.geonames.org/3028808/> .
+
+data:Hubback_Catherine cwrc:visits <http://sws.geonames.org/2657782/> , <http://sws.geonames.org/2648063/> .
+
+data:Cobbe_Frances_Power cwrc:travelsTo <http://sws.geonames.org/360995/> .
+
+data:Craik_Dinah_Mulock cwrc:travelsTo <http://sws.geonames.org/11609027/> , <http://sws.geonames.org/2638360/> , <http://sws.geonames.org/2641364/> , <http://sws.geonames.org/2658434/> , <http://sws.geonames.org/3017382/> .
+
+data:Hume_Mary_Catherine cwrc:visits <http://sws.geonames.org/3176959/> .
+
+data:Linton_Eliza_Lynn cwrc:visits <http://sws.geonames.org/2656173/> .
+
+data:Evans_Anne cwrc:visits <http://sws.geonames.org/2657557/> .
+
+data:Linton_Eliza_Lynn cwrc:travelsTo <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/3175395/> , <http://sws.geonames.org/6255148/> .
+
+data:Godley_Charlotte cwrc:travelsTo <http://sws.geonames.org/2186224/> , <http://sws.geonames.org/2640194/> , <http://sws.geonames.org/2188095/> , <http://sws.geonames.org/2147714/> , <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/2077456/> .
+
+data:Duff_Gordon_Lucie cwrc:visits <http://sws.geonames.org/2634204/> , <http://sws.geonames.org/2988507/> .
+
+data:Aguilar_Grace cwrc:visits <http://sws.geonames.org/2925533/> , <http://sws.geonames.org/2835382/> .
+
+data:Yonge_Charlotte cwrc:travelsTo <http://sws.geonames.org/2963597/> , <http://sws.geonames.org/11609015/> , <http://sws.geonames.org/2988507/> , <http://sws.geonames.org/9610282/> .
+
+data:Duberly_Frances_Isabella cwrc:visits <http://sws.geonames.org/2657433/> .
+
+data:Greenwell_Dora cwrc:travelsTo <http://sws.geonames.org/3175395/> .
+
+data:Grey_Maria cwrc:travelsTo <http://sws.geonames.org/2658434/> , <http://sws.geonames.org/3017382/> , <http://sws.geonames.org/2921044/> , <http://sws.geonames.org/3175395/> .
+
+data:Alexander_Mrs cwrc:visits <http://sws.geonames.org/2963597/> .
+
+data:Kavanagh_Julia cwrc:travelsTo <http://sws.geonames.org/2658434/> , <http://sws.geonames.org/3017382/> , <http://sws.geonames.org/3175395/> .
+
+data:Keary_Annie cwrc:travelsTo "Nile River" , "Lybia" , <http://sws.geonames.org/3164603/> , <http://sws.geonames.org/357994/> , <http://sws.geonames.org/360630/> , <http://sws.geonames.org/361058/> , <http://sws.geonames.org/3164527/> , <http://sws.geonames.org/347342/> , <http://sws.geonames.org/362041/> .
+
+data:Kemble_Adelaide cwrc:visits <http://sws.geonames.org/3169070/> .
+
+data:Marshall_Emma cwrc:travelsTo "Rhine River" , <http://sws.geonames.org/2645022/> , <http://sws.geonames.org/2661786/> , <http://sws.geonames.org/2802361/> , <http://sws.geonames.org/2988507/> .
+
+data:Kortright_Fanny_Aikin cwrc:visits <http://sws.geonames.org/2988507/> , <http://sws.geonames.org/2977845/> .
+
+data:Marshall_Emma cwrc:visits <http://sws.geonames.org/3181863/> , <http://sws.geonames.org/3028808/> , <http://sws.geonames.org/2654376/> , "St Remo,France" , <http://sws.geonames.org/3176959/> , "Arlberg,Switzerland" , "Glion,France" , "Kitzbühl,Switzerland" , <http://sws.geonames.org/2775220/> , <http://sws.geonames.org/2992058/> .
+
+data:Howitt_Anna_Mary cwrc:travelsTo <http://sws.geonames.org/2867714/> , <http://sws.geonames.org/2861422/> , <http://sws.geonames.org/3169070/> .
+
+data:Howe_Julia_Ward cwrc:travelsTo "Washington,DC,USA" , <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2988507/> , <http://sws.geonames.org/4560349/> , <http://sws.geonames.org/4887398/> , <http://sws.geonames.org/3621911/> , <http://sws.geonames.org/5263045/> , <http://sws.geonames.org/5378538/> , <http://sws.geonames.org/5392952/> , <http://sws.geonames.org/5744337/> .
+
+data:Parkes_Bessie_Rayner cwrc:travelsTo <http://sws.geonames.org/2988358/> , <http://sws.geonames.org/3031582/> , <http://sws.geonames.org/3035875/> , <http://sws.geonames.org/2986168/> , <http://sws.geonames.org/6252001/> .
+
+data:Ruskin_John cwrc:travelsTo "Rhine River" , <http://sws.geonames.org/2658434/> , <http://sws.geonames.org/3164603/> , <http://sws.geonames.org/3169070/> , <http://sws.geonames.org/3172394/> .
+
+data:Parkes_Bessie_Rayner cwrc:travelsTo <http://sws.geonames.org/2658434/> , <http://sws.geonames.org/2782113/> , <http://sws.geonames.org/2802361/> , <http://sws.geonames.org/2812482/> , <http://sws.geonames.org/3175395/> , "La Celle St Cloud,France" , <http://sws.geonames.org/2988507/> , "New Rochelle,France" .
+
+data:Keary_Annie cwrc:visits <http://sws.geonames.org/2654710/> , <http://sws.geonames.org/3028808/> , <http://sws.geonames.org/2988220/> , <http://sws.geonames.org/3017382/> , <http://sws.geonames.org/2965232/> .
+
+data:Bodichon_Barbara_Leigh_Smith cwrc:visits <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/5102578/> , "La Celle St Cloud,France" .
+
+data:Godley_Charlotte cwrc:visits <http://sws.geonames.org/2183737/> , <http://sws.geonames.org/2185362/> , <http://sws.geonames.org/2194064/> , "Cefnamwlch,Caernarfonshire,Wales" .
+
+data:Blackwell_Antoinette_Brown cwrc:visits "Martha's Vineyard,USA" , <http://sws.geonames.org/5746545/> .
+
+data:Becker_Lydia cwrc:visits <http://sws.geonames.org/6251999/> .
+
+data:Wilde_Jane_Francesca_Lady cwrc:travelsTo "Cavers,Scottish Borders,Scotland" , "Jedburgh,Scottish Borders,Scotland" , "Melrose,Scottish Borders,Scotland" , <http://sws.geonames.org/2650225/> , <http://sws.geonames.org/2655192/> , <http://sws.geonames.org/2673730/> , <http://sws.geonames.org/2666199/> , <http://sws.geonames.org/3144096/> , <http://sws.geonames.org/2614165/> .
+
+data:Hubback_Catherine cwrc:travelsTo <http://sws.geonames.org/6255148/> , <http://sws.geonames.org/2633521/> .
+
+data:Nightingale_Florence cwrc:travelsTo <http://sws.geonames.org/2658434/> , <http://sws.geonames.org/3017382/> , <http://sws.geonames.org/3175395/> , <http://sws.geonames.org/3169070/> , <http://sws.geonames.org/361058/> , "Nile River" , <http://sws.geonames.org/360630/> , <http://sws.geonames.org/347342/> , <http://sws.geonames.org/2921044/> , <http://sws.geonames.org/390903/> .
+
+data:Wilde_Jane_Francesca_Lady cwrc:travelsTo <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2988507/> .
+
+data:Nightingale_Florence cwrc:travelsTo <http://sws.geonames.org/357994/> .
+
+data:Siddal_Elizabeth cwrc:travelsTo <http://sws.geonames.org/2990440/> .
+
+data:Nightingale_Florence cwrc:visits <http://sws.geonames.org/2633873/> , <http://sws.geonames.org/2638664/> , <http://sws.geonames.org/2988507/> , <http://sws.geonames.org/11609031/> .
+
+data:Procter_Adelaide cwrc:visits <http://sws.geonames.org/3165524/> .
+
+data:Parkes_Bessie_Rayner cwrc:visits <http://sws.geonames.org/2647356/> , <http://sws.geonames.org/2643743/> .
+
+data:Bronte_Charlotte cwrc:visits <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/2643123/> , <http://sws.geonames.org/2638419/> , <http://sws.geonames.org/2649463/> , "Brookroyd,Yorkshire,England" , <http://sws.geonames.org/2650225/> , <http://sws.geonames.org/2645022/> , <http://sws.geonames.org/2657360/> .
+
+data:Victoria_Queen cwrc:visits <http://sws.geonames.org/2634895/> , <http://sws.geonames.org/11609013/> , <http://sws.geonames.org/11609017/> , <http://sws.geonames.org/11609018/> , <http://sws.geonames.org/11609021/> , <http://sws.geonames.org/11609023/> , <http://sws.geonames.org/11609031/> , <http://sws.geonames.org/11609039/> , <http://sws.geonames.org/11609040/> , <http://sws.geonames.org/11609042/> , <http://sws.geonames.org/11609044/> , <http://sws.geonames.org/2642562/> , <http://sws.geonames.org/6269131/> , <http://sws.geonames.org/11609015/> , <http://sws.geonames.org/2638360/> , <http://sws.geonames.org/2633842/> , <http://sws.geonames.org/2963597/> .
+
+data:Trollope_Anthony cwrc:travelsTo <http://sws.geonames.org/2634895/> , <http://sws.geonames.org/11609014/> , <http://sws.geonames.org/11609027/> , <http://sws.geonames.org/2077456/> , <http://sws.geonames.org/2186224/> , "Channel Islands,UK" , "Gibraltar,Spain" .
+
+data:Taylor_Mary cwrc:travelsTo <http://sws.geonames.org/6255148/> , <http://sws.geonames.org/7872188/> , <http://sws.geonames.org/2658434/> .
+
+data:Oliphant_Margaret cwrc:visits <http://sws.geonames.org/2921044/> .
+
+data:Cobbe_Frances_Power cwrc:visits <http://sws.geonames.org/2643743/> , <http://sws.geonames.org/3176959/> .
+
+data:Sewell_Elizabeth cwrc:travelsTo <http://sws.geonames.org/2645022/> , <http://sws.geonames.org/2653840/> , <http://sws.geonames.org/2658434/> , <http://sws.geonames.org/2763586/> , <http://sws.geonames.org/2921044/> , <http://sws.geonames.org/2988507/> , <http://sws.geonames.org/3175395/> .
+
+data:Tucker_Charlotte_Maria cwrc:visits <http://sws.geonames.org/2988507/> , <http://sws.geonames.org/6077243/> , <http://sws.geonames.org/6167865/> , <http://sws.geonames.org/6325494/> , <http://sws.geonames.org/6087905/> , <http://sws.geonames.org/6251999/> .
+
+data:Sewell_Elizabeth cwrc:travelsTo <http://sws.geonames.org/2893993/> .
+
+data:Tytler_Harriet cwrc:visits <http://sws.geonames.org/6269131/> .
+
+data:Taylor_Mary cwrc:visits <http://sws.geonames.org/2921044/> , <http://sws.geonames.org/2652890/> .
+
+data:Wilde_Jane_Francesca_Lady cwrc:visits <http://sws.geonames.org/2964574/> , <http://sws.geonames.org/2964528/> .
+
+data:Yonge_Charlotte cwrc:visits "Puslinch,Devon,England" , <http://sws.geonames.org/2640729/> , <http://sws.geonames.org/2643743/> .
+
+data:Smedley_Menella_Bute cwrc:visits <http://sws.geonames.org/2651048/> , <http://sws.geonames.org/2638757/> , <http://sws.geonames.org/2963597/> .
+
+data:Macquoid_Katharine_S cwrc:travelsTo <http://sws.geonames.org/3017382/> .
+
+data:Shore_Louisa_Catherine cwrc:visits <http://sws.geonames.org/2643743/> .
+
+data:Shore_Margaret_Emily cwrc:visits "Exeter,Devon" .
