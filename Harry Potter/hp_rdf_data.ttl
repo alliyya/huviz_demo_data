@@ -1,0 +1,430 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+
+wd:Q15272723 rdfs:label "Cygnus Black III"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q33297169,
+        wd:Q3658341 .
+
+wd:Q15272727 rdfs:label "Druella Rosier"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q3658341 .
+
+wd:Q3740882 rdfs:label "Ted Tonks"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q20529153,
+        wd:Q3658341 .
+
+wd:Q713701 rdfs:label "Sirius Black"@en ;
+    wdt:P1038 wd:Q1057918,
+        wd:Q1250338,
+        wd:Q15272913,
+        wd:Q208657,
+        wd:Q3278614 ;
+    wdt:P157 wd:Q1057918 ;
+    wdt:P1889 wd:Q15269521,
+        wd:Q15269539 ;
+    wdt:P22 wd:Q6052969 ;
+    wdt:P25 wd:Q6594826 ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3658341,
+        wd:Q830248 ;
+    wdt:P3373 wd:Q1770841 .
+
+wd:Q715312 rdfs:label "Nymphadora Tonks"@en ;
+    rdf:type wd:Q15773347,
+        wd:Q2338879,
+        wd:Q33296715,
+        wd:Q3658341,
+        wd:Q66118879 .
+
+wd:Q1190608 rdfs:label "Newt Scamander"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33296715,
+        wd:Q3658341 .
+
+wd:Q11910388 rdfs:label "Vernon Dursley"@en ;
+    rdf:type wd:Q154224,
+        wd:Q15773347,
+        wd:Q3375722,
+        wd:Q3658341 .
+
+wd:Q12498478 rdfs:label "Michael Corner"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33295822,
+        wd:Q3658341,
+        wd:Q66118879 .
+
+wd:Q1250338 rdfs:label "Narcissa Malfoy"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33297169,
+        wd:Q3658341 .
+
+wd:Q15269521 rdfs:label "Sirius Black II"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q3658341 .
+
+wd:Q15269539 rdfs:label "Sirius Black I"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q3658341 .
+
+wd:Q15272913 rdfs:label "Alphard Black"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q33297169,
+        wd:Q3658341 .
+
+wd:Q173998 rdfs:label "Ron Weasley"@en ;
+    wdt:P1830 wd:Q2787631 ;
+    wdt:P22 wd:Q7881262 ;
+    wdt:P25 wd:Q3255012 ;
+    wdt:P26 wd:Q174009 ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3375722,
+        wd:Q3658341 ;
+    wdt:P3373 wd:Q13359612,
+        wd:Q187923,
+        wd:Q3174865,
+        wd:Q3430858 ;
+    wdt:P40 wd:Q3741059,
+        wd:Q3744404 ;
+    wdt:P451 wd:Q174009 ;
+    wdt:P7047 wd:Q176132 .
+
+wd:Q176772 rdfs:label "Severus Snape"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33297169,
+        wd:Q3375722,
+        wd:Q3658341,
+        wd:Q66118879 .
+
+wd:Q1770841 rdfs:label "Regulus Black"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q33297169,
+        wd:Q3658341 .
+
+wd:Q179641 rdfs:label "Draco Malfoy"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33297169,
+        wd:Q3375722,
+        wd:Q3658341 .
+
+wd:Q1963397 rdfs:label "Petunia Dursley"@en ;
+    rdf:type wd:Q154224,
+        wd:Q15773347,
+        wd:Q3375722,
+        wd:Q3658341 .
+
+wd:Q208657 rdfs:label "Remus Lupin"@en ;
+    rdf:type wd:Q1462606,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q3658341,
+        wd:Q66118879 .
+
+wd:Q2182794 rdfs:label "Tom Riddle"@en ;
+    rdf:type wd:Q154224,
+        wd:Q3658341 .
+
+wd:Q2787631 rdfs:label "Pigwidgeon"@en ;
+    rdf:type wd:Q15298221,
+        wd:Q24573088,
+        wd:Q3658341 .
+
+wd:Q3226215 rdfs:label "Dean Thomas"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3658341,
+        wd:Q66118879 .
+
+wd:Q3234008 rdfs:label "Fawkes"@en ;
+    rdf:type wd:Q15773347,
+        wd:Q3521824,
+        wd:Q3658341 .
+
+wd:Q3278614 rdfs:label "Andromeda Tonks"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q33297169,
+        wd:Q3658341 .
+
+
+wd:Q3741059 rdfs:label "Hugo Granger-Weasley"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q3658341 .
+
+wd:Q3744404 rdfs:label "Rose Granger-Weasley"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3375722,
+        wd:Q3658341 .
+
+wd:Q4810732 rdfs:label "Ignotus Peverell"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q3658341 .
+
+wd:Q5153269 rdfs:label "Merope Gaunt"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q3658341 .
+
+wd:Q5700415 rdfs:label "Dudley Dursley"@en ;
+    rdf:type wd:Q154224,
+        wd:Q15773347,
+        wd:Q3375722,
+        wd:Q3658341 .
+
+wd:Q5959014 rdfs:label "Kendra Dumbledore"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q3658341 .
+
+wd:Q6052969 rdfs:label "Orion Black"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q33297169,
+        wd:Q3658341 .
+
+wd:Q6072130 rdfs:label "Percival Dumbledore"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q3658341 .
+
+wd:Q6594826 rdfs:label "Walburga Black"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q33297169,
+        wd:Q3658341 .
+
+wd:Q712548 rdfs:label "Albus Dumbledore"@en ;
+    wdt:P157 wd:Q176772 ;
+    wdt:P1830 wd:Q3234008 ;
+    wdt:P22 wd:Q6072130 ;
+    wdt:P25 wd:Q5959014 ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3375722,
+        wd:Q3658341,
+        wd:Q66118879 ;
+    wdt:P3342 wd:Q1377227,
+        wd:Q1875912,
+        wd:Q3244512 ;
+    wdt:P3373 wd:Q1875912,
+        wd:Q904719 ;
+    wdt:P7047 wd:Q1377227,
+        wd:Q176132 ;
+    wdt:P802 wd:Q1190608 .
+
+wd:Q717594 rdfs:label "James Potter"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3375722,
+        wd:Q3658341,
+        wd:Q830248 .
+
+wd:Q754837 rdfs:label "Lily Potter"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q20529153,
+        wd:Q33179355,
+        wd:Q3375722,
+        wd:Q3658341 .
+
+wd:Q845210 rdfs:label "Hedwig"@en ;
+    rdf:type wd:Q15298221,
+        wd:Q15773347,
+        wd:Q26273842,
+        wd:Q3658341 .
+
+wd:Q845403 rdfs:label "Nagini"@en ;
+    rdf:type wd:Q10298203,
+        wd:Q15298221,
+        wd:Q15773347,
+        wd:Q27229996,
+        wd:Q3658341 .
+
+wd:Q904719 rdfs:label "Aberforth Dumbledore"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q3658341 .
+
+wd:Q928596 rdfs:label "Salazar Slytherin"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q3658341 .
+
+
+
+wd:Q13359612 rdfs:label "Fred Weasley"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3658341 .
+
+wd:Q1377227 rdfs:label "Gellert Grindelwald"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q3658341 .
+
+wd:Q174009 rdfs:label "Hermione Granger"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q20529153,
+        wd:Q33179355,
+        wd:Q3375722,
+        wd:Q3658341 .
+
+wd:Q1875912 rdfs:label "Ariana Dumbledore"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q3658341 .
+
+wd:Q187923 rdfs:label "Ginny Weasley"@en ;
+    wdt:P22 wd:Q7881262 ;
+    wdt:P25 wd:Q3255012 ;
+    wdt:P26 wd:Q3244512 ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3375722,
+        wd:Q3658341 ;
+    wdt:P3373 wd:Q13359612,
+        wd:Q173998,
+        wd:Q3174865,
+        wd:Q3430858 ;
+    wdt:P40 wd:Q3256600,
+        wd:Q3745681,
+        wd:Q9010722 ;
+    wdt:P451 wd:Q12498478,
+        wd:Q3226215 ;
+    wdt:P7047 wd:Q176132 .
+
+wd:Q3174865 rdfs:label "Bill Weasley"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3658341 .
+
+wd:Q3255012 rdfs:label "Molly Weasley"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3658341 .
+
+wd:Q3256600 rdfs:label "Albus Severus Potter"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33297169,
+        wd:Q3375722,
+        wd:Q3658341 .
+
+wd:Q33296715 rdfs:label "Hufflepuff student"@en .
+
+wd:Q3430858 rdfs:label "Charlie Weasley"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3658341 .
+
+wd:Q3745681 rdfs:label "Lily Luna Potter"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3375722,
+        wd:Q3658341 .
+
+wd:Q7881262 rdfs:label "Arthur Weasley"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3658341 .
+
+
+
+wd:Q9010722 rdfs:label "James Sirius Potter"@en ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3375722,
+        wd:Q3658341 .
+
+wd:Q1057918 rdfs:label "Bellatrix Lestrange"@en ;
+    rdf:type wd:Q12372870,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33297169,
+        wd:Q3658341 .
+
+
+
+wd:Q3244512 rdfs:label "Harry Potter"@en ;
+    wdt:P1038 wd:Q11910388,
+        wd:Q1963397,
+        wd:Q4810732,
+        wd:Q5700415 ;
+    wdt:P1429 wd:Q845210 ;
+    wdt:P22 wd:Q717594 ;
+    wdt:P25 wd:Q754837 ;
+    wdt:P26 wd:Q187923 ;
+    rdf:type wd:Q10298203,
+        wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33179355,
+        wd:Q3375722,
+        wd:Q3658341,
+        wd:Q66118879 ;
+    wdt:P40 wd:Q3256600,
+        wd:Q3745681,
+        wd:Q9010722 ;
+    wdt:P4292 wd:Q176132 ;
+    wdt:P7047 wd:Q176132,
+        wd:Q179641 .
+
+wd:Q176132 rdfs:label "Lord Voldemort"@en ;
+    wdt:P1038 wd:Q928596 ;
+    wdt:P157 wd:Q3244512 ;
+    wdt:P1830 wd:Q845403 ;
+    wdt:P22 wd:Q2182794 ;
+    wdt:P25 wd:Q5153269 ;
+    rdf:type wd:Q15298259,
+        wd:Q15773347,
+        wd:Q33297169,
+        wd:Q3375722,
+        wd:Q3658341,
+        wd:Q66118879 ;
+    wdt:P451 wd:Q1057918 ;
+    wdt:P7047 wd:Q3244512,
+        wd:Q712548 .
+
+
+
+

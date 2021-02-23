@@ -1,0 +1,40 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> 
+
+wd:Q10298203 rdfs:label "horcrux"@en .
+wd:Q12372870 rdfs:label "pureblood"@en .
+wd:Q1462606 rdfs:label "werewolves in Harry Potter"@en .
+wd:Q15298221 rdfs:label "beings in the Harry Potter universe"@en .
+wd:Q15298259 rdfs:label "wizard in the Harry Potter universe"@en .
+wd:Q154224 rdfs:label "muggle"@en .
+wd:Q15773347 rdfs:label "film character"@en .
+wd:Q20529153 rdfs:label "muggle-born"@en .
+wd:Q2338879 rdfs:label "Metamorphmagus"@en .
+wd:Q24573088 rdfs:label "fictional owl"@en .
+wd:Q26273842 rdfs:label "fictional long-eared owl"@en .
+wd:Q27229996 rdfs:label "fictional snake"@en .
+wd:Q33179355 rdfs:label "Gryffindor student"@en .
+wd:Q33295822 rdfs:label "Ravenclaw students"@en .
+wd:Q33297169 rdfs:label "Slytherin student"@en .
+wd:Q3375722 rdfs:label "theatrical character"@en .
+wd:Q3521824 rdfs:label "phoenix in the Harry Potter universe"@en .
+wd:Q3658341 rdfs:label "literary character"@en .
+wd:Q66118879 rdfs:label "half-blood"@en .
+wd:Q830248 rdfs:label "animagus"@en .
+wdt:P1038 rdfs:label "relative"@en .
+wdt:P1429 rdfs:label "has pet"@en .
+wdt:P157 rdfs:label "killed by"@en .
+wdt:P1830 rdfs:label "owner of"@en .
+wdt:P1889 rdfs:label "different from"@en .
+wdt:P22 rdfs:label "father"@en .
+wdt:P25 rdfs:label "mother"@en .
+wdt:P26 rdfs:label "spouse"@en .
+wdt:P3342 rdfs:label "significant person"@en .
+wdt:P3373 rdfs:label "sibling"@en .
+wdt:P40 rdfs:label "child"@en .
+wdt:P4292 rdfs:label "possessed by spirit"@en .
+wdt:P451 rdfs:label "unmarried partner"@en .
+wdt:P7047 rdfs:label "enemy of"@en .
+wdt:P802 rdfs:label "student"@en .
