@@ -1,7 +1,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix wd: <http://www.wikidata.org/entity/> .
-@prefix wdt: <http://www.wikidata.org/prop/direct/>. 
+@prefix wdt: <http://www.wikidata.org/prop/direct/> . 
 
 wd:Q10298203 rdfs:label "horcrux"@en .
 wd:Q12372870 rdfs:label "pureblood"@en .
